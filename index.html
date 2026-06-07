@@ -8,76 +8,38 @@
 </head>
 <body>
 
-    <!-- Background -->
     <div class="bg-animated"></div>
-    <div class="floating-shapes">
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
+    <div class="floating-shapes"><div class="shape"></div><div class="shape"></div><div class="shape"></div><div class="shape"></div></div>
 
-    <!-- ==================== DUAA PAGE ==================== -->
+    <!-- DUAA PAGE -->
     <div id="duaaPage" class="page active">
         <div class="duaa-wrapper">
             <div class="duaa-container">
                 <div class="duaa-hearts" id="duaaHearts"></div>
-
                 <span class="duaa-mosque-icon">🕌</span>
-
-                <div class="duaa-decoration">
-                    <div class="duaa-line"></div>
-                    <div class="duaa-diamond"></div>
-                    <div class="duaa-line"></div>
-                </div>
-
+                <div class="duaa-decoration"><div class="duaa-line"></div><div class="duaa-diamond"></div><div class="duaa-line"></div></div>
                 <h1 class="duaa-title">دعاء للمرحوم <span>عمي بهجت المزين</span></h1>
                 <p class="duaa-subtitle">رحمه الله رحمة واسعة وأسكنه فسيح جناته 🤲</p>
-
                 <div class="duaa-content">
-                    <div class="duaa-item">
-                        <p><span class="duaa-star">✦</span> اللهم اغفر له وارحمه وعافه واعفُ عنه</p>
-                    </div>
-                    <div class="duaa-item">
-                        <p><span class="duaa-star">✦</span> اللهم أكرم نُزُله ووسّع مُدخله</p>
-                    </div>
-                    <div class="duaa-item">
-                        <p><span class="duaa-star">✦</span> اللهم اغسله بالماء والثلج والبَرَد</p>
-                    </div>
-                    <div class="duaa-item">
-                        <p><span class="duaa-star">✦</span> اللهم نقّه من الذنوب والخطايا كما يُنقّى الثوب الأبيض من الدنس</p>
-                    </div>
-                    <div class="duaa-item">
-                        <p><span class="duaa-star">✦</span> اللهم أبدله داراً خيراً من داره وأهلاً خيراً من أهله</p>
-                    </div>
-                    <div class="duaa-item">
-                        <p><span class="duaa-star">✦</span> اللهم أدخله الجنة بغير حساب ولا سابقة عذاب</p>
-                    </div>
-                    <div class="duaa-item duaa-full-width">
-                        <p><span class="duaa-star">✦</span> اللهم اجعل قبره روضة من رياض الجنة ولا تجعله حفرة من حفر النار</p>
-                    </div>
-                    <div class="duaa-item duaa-full-width">
-                        <p><span class="duaa-star">✦</span> اللهم آنس وحشته ووسع قبره ونوّر له فيه</p>
-                    </div>
-                    <div class="duaa-inna">
-                        <p>إنا لله وإنا إليه راجعون 🤲<br>اللهم لا تحرمنا أجره ولا تفتنا بعده واغفر لنا وله</p>
-                    </div>
+                    <div class="duaa-item"><p><span class="duaa-star">✦</span> اللهم اغفر له وارحمه وعافه واعفُ عنه</p></div>
+                    <div class="duaa-item"><p><span class="duaa-star">✦</span> اللهم أكرم نُزُله ووسّع مُدخله</p></div>
+                    <div class="duaa-item"><p><span class="duaa-star">✦</span> اللهم اغسله بالماء والثلج والبَرَد</p></div>
+                    <div class="duaa-item"><p><span class="duaa-star">✦</span> اللهم نقّه من الذنوب والخطايا كما يُنقّى الثوب الأبيض من الدنس</p></div>
+                    <div class="duaa-item"><p><span class="duaa-star">✦</span> اللهم أبدله داراً خيراً من داره وأهلاً خيراً من أهله</p></div>
+                    <div class="duaa-item"><p><span class="duaa-star">✦</span> اللهم أدخله الجنة بغير حساب ولا سابقة عذاب</p></div>
+                    <div class="duaa-item duaa-full-width"><p><span class="duaa-star">✦</span> اللهم اجعل قبره روضة من رياض الجنة ولا تجعله حفرة من حفر النار</p></div>
+                    <div class="duaa-item duaa-full-width"><p><span class="duaa-star">✦</span> اللهم آنس وحشته ووسع قبره ونوّر له فيه</p></div>
+                    <div class="duaa-inna"><p>إنا لله وإنا إليه راجعون 🤲<br>اللهم لا تحرمنا أجره ولا تفتنا بعده واغفر لنا وله</p></div>
                 </div>
-
                 <div class="duaa-btn-container">
-                    <button class="duaa-btn" onclick="prayAndContinue()">
-                        <span>🤲</span>
-                        <span>دعوت له - الفاتحة</span>
-                    </button>
-                    <div class="duaa-counter">
-                        عدد من دعوا له: <span class="counter-num" id="duaaCounter">0</span> شخص
-                    </div>
+                    <button class="duaa-btn" onclick="prayAndContinue()"><span>🤲</span><span>دعوت له - الفاتحة</span></button>
+                    <div class="duaa-counter">عدد من دعوا له: <span class="counter-num" id="duaaCounter">0</span> شخص</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- ==================== LOGIN PAGE ==================== -->
+    <!-- LOGIN PAGE -->
     <div id="loginPage" class="page">
         <div class="login-container">
             <div class="login-header">
@@ -109,15 +71,13 @@
         </div>
     </div>
 
-    <!-- ==================== SUBJECTS PAGE ==================== -->
+    <!-- SUBJECTS PAGE -->
     <div id="subjectsPage" class="page">
         <button class="logout-btn" onclick="logout()">🚪 Logout</button>
         <div class="subjects-header">
             <div class="user-welcome">
-                <span>Welcome, <strong id="welcomeName"></strong></span>
-                <span>|</span>
-                <span>ID: <strong id="welcomeId"></strong></span>
-                <span>|</span>
+                <span>Welcome, <strong id="welcomeName"></strong></span><span>|</span>
+                <span>ID: <strong id="welcomeId"></strong></span><span>|</span>
                 <span>Dept: <strong id="welcomeDept"></strong></span>
             </div>
             <h1>Choose Your <span>Subject</span></h1>
@@ -127,7 +87,7 @@
         <div class="subjects-grid" id="subjectsGrid"></div>
     </div>
 
-    <!-- ==================== EXAM PAGE ==================== -->
+    <!-- EXAM PAGE -->
     <div id="examPage" class="page">
         <button class="back-btn-top" onclick="goBackToSubjects()">← Back</button>
         <div class="exam-container">
@@ -146,16 +106,13 @@
         </div>
     </div>
 
-    <!-- ==================== RESULT PAGE ==================== -->
+    <!-- RESULT PAGE -->
     <div id="resultPage" class="page">
-        <div class="result-container">
-            <div class="result-card" id="resultCard"></div>
-        </div>
+        <div class="result-container" id="resultContainer"></div>
     </div>
 
-    <!-- Balloons -->
     <div class="balloons-container" id="balloonsContainer"></div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
