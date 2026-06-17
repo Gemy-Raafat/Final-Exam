@@ -21,19 +21,19 @@ const subjectImages = {
 const subjectsData = {
   network: [
     { id: "np", name: "Network Programming", icon: "🌐", date: "Mon 1/6/2026 - 2 Hours", hasQuestions: true },
-    { id: "se", name: "Software Engineering", icon: "⚙️", date: "Thu 4/6/2026 - 2 Hours", hasQuestions: false },
-    { id: "cs", name: "CCNA Security", icon: "🔒", date: "Mon 8/6/2026 - 2 Hours", hasQuestions: false },
+    { id: "se", name: "Software Engineering", icon: "⚙️", date: "Thu 4/6/2026 - 2 Hours", hasQuestions: true },
+    { id: "cs", name: "CCNA Security", icon: "🔒", date: "Mon 8/6/2026 - 2 Hours", hasQuestions: true },
     { id: "c3", name: "CCNA 3", icon: "📡", date: "Thu 11/6/2026 - 2 Hours", hasQuestions: true },
     { id: "es", name: "Embedded System", icon: "🔧", date: "Mon 15/6/2026 - 2 Hours", hasQuestions: true },
     { id: "ds", name: "Distributed System", icon: "🖥️", date: "Thu 18/6/2026 - 2 Hours", hasQuestions: true },
   ],
   software: [
     { id: "np", name: "Network Programming", icon: "🌐", date: "Mon 1/6/2026 - 2 Hours", hasQuestions: true },
-    { id: "se", name: "Software Engineering", icon: "⚙️", date: "Thu 4/6/2026 - 2 Hours", hasQuestions: false },
+    { id: "se", name: "Software Engineering", icon: "⚙️", date: "Thu 4/6/2026 - 2 Hours", hasQuestions: true },
     { id: "mp", name: "Mobile Programming", icon: "📱", date: "Mon 8/6/2026 - 2 Hours", hasQuestions: true },
-    { id: "cpp", name: "Advanced C++", icon: "💻", date: "Thu 11/6/2026 - 2 Hours", hasQuestions: false },
+    { id: "cpp", name: "Advanced C++", icon: "💻", date: "Thu 11/6/2026 - 2 Hours", hasQuestions: true },
     { id: "es", name: "Embedded System", icon: "🔧", date: "Mon 15/6/2026 - 2 Hours", hasQuestions: true },
-    { id: "algo", name: "Algorithms", icon: "🧮", date: "Thu 18/6/2026 - 2 Hours", hasQuestions: false },
+    { id: "algo", name: "Algorithms", icon: "🧮", date: "Thu 18/6/2026 - 2 Hours", hasQuestions: true },
   ],
 };
 
